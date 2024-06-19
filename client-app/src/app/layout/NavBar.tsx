@@ -7,7 +7,7 @@ interface Props{
 
 export default function NavBar({openForm} : Props){
     return(
-        <Menu inverted fixed="top">
+        <Menu inverted fixed="top" color="grey">
             <Container>
                 <Menu.Item header>
                     <img src="/assets/logo.png" alt="logo" />
